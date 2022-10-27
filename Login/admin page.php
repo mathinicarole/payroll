@@ -38,6 +38,14 @@ if(!isset($_SESSION["username"]))
               <li>
                  <a href=""><span class="las la-users"></span>
                  <span>Employee</span></a>
+                 <li class="nav-item has-submenu">
+		<a class="nav-link" href="#"> Submenu links  </a>
+		<ul class="submenu collapse">
+			<li><a class="nav-link" href="#">Submenu item 1 </a></li>
+			<li><a class="nav-link" href="#">Submenu item 2 </a></li>
+			<li><a class="nav-link" href="#">Submenu item 3 </a> </li>
+		</ul>
+	</li>
               </li>  
              <li>
                   <a href=""><span class="las la-tasks"></span>
@@ -151,8 +159,6 @@ if(!isset($_SESSION["username"]))
 
 
    </div> 
-
-
 
 
 
