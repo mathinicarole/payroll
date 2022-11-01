@@ -20,7 +20,11 @@ if(!isset($_SESSION["username"]))
      
     <link rel="stylesheet" href="path/to/line-awesome/css/line-awesome-font-awesome.min.css">
     <link rel="stylesheet" href="admin style.css">
+    <!----bootstrap dropdown----->
+   <link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" >
+   <link rel="3eb46242aad791aefa762d89a01f631aa5c09f1c73c3bae55df33bcaaa769c33caeea5adbc48">
 </head>
+
 <body>
    <div class="sidebar">
       <div class="sidebar-brand">
@@ -38,14 +42,7 @@ if(!isset($_SESSION["username"]))
               <li>
                  <a href=""><span class="las la-users"></span>
                  <span>Employee</span></a>
-                 <li class="nav-item has-submenu">
-		<a class="nav-link" href="#"> Submenu links  </a>
-		<ul class="submenu collapse">
-			<li><a class="nav-link" href="#">Submenu item 1 </a></li>
-			<li><a class="nav-link" href="#">Submenu item 2 </a></li>
-			<li><a class="nav-link" href="#">Submenu item 3 </a> </li>
-		</ul>
-	</li>
+              
               </li>  
              <li>
                   <a href=""><span class="las la-tasks"></span>
@@ -171,7 +168,8 @@ if(!isset($_SESSION["username"]))
 
 
 
-
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
    
        

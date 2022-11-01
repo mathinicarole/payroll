@@ -67,10 +67,10 @@ session_start();
 <body>
     
 <div class="box">
+   
 
-     
 <form action="" method="POST">
-<div class="container"> 
+<div class="container">  
     <div class="row"> 
         <div class="col-md-6"> 
             <div class="card">
