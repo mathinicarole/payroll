@@ -71,9 +71,7 @@ if(!isset($_SESSION["username"]))
                          </li>
 
                          <div class="close">
-                         <?php
-                          
-                           ?>
+                      
                          
                            <a href="log out.php"><span class="las la-toggle-off">Logout</a>
                            </div>
@@ -83,7 +81,7 @@ if(!isset($_SESSION["username"]))
                 
         </div>
      </div> 
- 
+   
      
     
  </body>

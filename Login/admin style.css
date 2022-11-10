@@ -150,7 +150,7 @@ h4{
 main{
     margin-top: 85px;
     padding: 2rem 1.5rem;
-    background: rgb(10, 10, 45);
+    background: #f0f0f0;
     min-height: calc(100vh - 90px);
 }
 .cards{
@@ -160,26 +160,29 @@ main{
     margin-top: 1rem;
 }
 .card-single{
-        display: flex;
-        justify-content: space-between;
-        background:#221f32;
-        padding: 1rem;
-        border-radius: 29px;
+    display: flex;
+     justify-content: space-between;
+     background:#fff;
+     padding: 2rem;
+     border-radius: 2px;
 }
-.card-single span:first-child{
-color:rgb(109, 165, 120);
-font-size: 3rem;
+.card-single div:last-child span{
+    font-size: 3rem;
+    color: var(--main-color);
 }
-.card-single h1{
-    color:rgb(109, 165, 120);
-    }
-    .card-single :last-child{
-      color: violet;
+.card-single div:first-child span{
+    color: var(--text-grey);
+}
+.card-single:last-child{
+    background: var(--main-color);
+}
+.card-single:last-child h1,
+.card-single:last-child div:first-child span 
+.card-single:last-child div:last-child span {
+    color: #fff;
+}
 
-    }
-
-
-    
+ 
  
  
    

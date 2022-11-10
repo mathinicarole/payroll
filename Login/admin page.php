@@ -71,12 +71,9 @@ if(!isset($_SESSION["username"]))
                 </li>   
                <li>
                  <a href=""><span class="las la-cog"></span>
-                  <span>Settings</span></a>
-                  
+                  <span>Settings</span></a>  
               </li>
-             
-
-            
+          
                 <?php
                  
                  ?>
@@ -114,7 +111,7 @@ if(!isset($_SESSION["username"]))
       <div class="cards">
         <div class="card-single">
             <div>
-                <h1>6</h1>
+                <h1>16</h1>
                 <span>Total employees</span>
             </div>
             <div>
@@ -149,14 +146,15 @@ if(!isset($_SESSION["username"]))
                 <span class="las la-sign-out-alt"></span>
             </div>
         </div>
-      </div>
+</div>
+
+
        </main>
 
 
 
 
-   </div> 
-
+  
 
 
 
