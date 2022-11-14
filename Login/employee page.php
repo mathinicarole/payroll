@@ -36,7 +36,7 @@ if(!isset($_SESSION["username"]))
                          <span>Dashboard</span></a>
                       </li>
                        <li>
-                           <a href=""class="active"><span class="las la-user"></span>
+                           <a href=""><span class="las la-user"></span>
                          <span>Profile</span></a>
                       </li>  
                         <li>
@@ -80,6 +80,7 @@ if(!isset($_SESSION["username"]))
                     
                 
         </div>
+        
      </div> 
    
      

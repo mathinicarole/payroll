@@ -36,7 +36,7 @@ if(!isset($_SESSION["username"]))
         <div class="sidebar-menu">
             <ul>
               <li>
-                 <a href="" class="active"><span class="las la-igloo"></span>
+                 <a href="" ><span class="las la-igloo"></span>
                  <span>Dashboard</span></a>
                </li>
               <li>
@@ -107,51 +107,7 @@ if(!isset($_SESSION["username"]))
               </div>  
            </div>
       </header>
-        <main>
-      <div class="cards">
-        <div class="card-single">
-            <div>
-                <h1>16</h1>
-                <span>Total employees</span>
-            </div>
-            <div>
-                <span class="las la-users"></span>
-            </div>
-        </div>
-        <div class="cards">
-        <div class="card-single">
-            <div>
-                <h1>10</h1>
-                <span>Total department</span>
-            </div>
-            <div>
-                <span class="las la-tasks"></span>
-            </div>
-        </div> <div class="cards">
-        <div class="card-single">
-            <div>
-                <h1>2</h1>
-                <span>Present day</span>
-            </div>
-            <div>
-                <span class="las la-clock"></span>
-            </div>
-        </div> <div class="cards">
-        <div class="card-single">
-            <div>
-                <h1>4</h1>
-                <span>Leave</span>
-            </div>
-            <div>
-                <span class="las la-sign-out-alt"></span>
-            </div>
-        </div>
-</div>
-
-
-       </main>
-
-
+        
 
 
   
