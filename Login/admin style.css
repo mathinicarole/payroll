@@ -85,7 +85,34 @@ body{
 .main-content{
     margin-left: 345px;
 }
-
+tyifdryoukjbou
+*-------curve outside------*/
+.sidebar-brand ul li:hover a::before,
+.sidebar-brand ul li.hovered a::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 35px 35px 0 10px var(--white);
+    pointer-events: none;
+}
+.navigation ul li:hover a::after,
+.navigation ul li.hovered a::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 35px -35px 0 10px var(--white);
+    pointer-events: none;
+}
 header{
     display: flex;
     justify-content: space-between;
