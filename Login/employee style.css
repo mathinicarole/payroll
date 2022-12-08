@@ -32,3 +32,12 @@ body{
     text-decoration: none;
     font-family:'Roboto', 'Mukta', sans-serif;
 }
+.sidebar{
+  width: 345px;
+  position: fixed;
+  background: rgb(29, 27, 31);
+  left: 0;
+  top: 0;
+  height: 100%;
+  
+}

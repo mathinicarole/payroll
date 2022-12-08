@@ -17,9 +17,22 @@
 
 
 body{
+    
     background-image: url("/ALPHA TECH/Images/1169862.jpg");
     background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
+   overflow-x: hidden;
 }
+.sidebar{
+    width: 345px;
+    position: fixed;
+  
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-left: 10px solid red;
+    transition: 0.5s;
+    overflow: hidden;
+  }
