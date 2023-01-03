@@ -44,7 +44,7 @@ session_start();
   else if ($row["usertype"]=="admin")
   {
    $_SESSION["username"]=$username;
-   header("location:admin page.php");
+   header("location:admin_page.php");
  
   }
    
