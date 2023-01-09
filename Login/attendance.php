@@ -1,8 +1,3 @@
-
-<?php
-include('connection.php');
-
-?>
 <?php
 session_start();
 
@@ -17,14 +12,15 @@ if(!isset($_SESSION["username"]))
         <title>ALPHA TECH Payroll System</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="attendance_style.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
         <link rel="stylesheet" href="path/to/line-awesome/css/line-awesome-font-awesome.min.css">
-        <link rel="stylesheet" href="employeelist_style.css">
     </head>
     
     <body>
-    <div class="container ">
+
+        <div class="container ">
             <div class="sidebar ">
                 
                 <h2 class="las la-crown ">
@@ -86,41 +82,33 @@ if(!isset($_SESSION["username"]))
                 </ul>
            
             </div>
+            
+            
+            <div class="main text-center mt-3">
 
-        <div class="content">
-        <table class="table table-bordered table-striped">
-            <thead>
-                <tr>
-                <th>Id</th>
-                <th>Username</th>
-                <th>Email</th>
-                <th>Gender</th>
-                <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $select = "SELECT * FROM employees";
-                $select_query = mysqli_query($conn,$select);
-                while($row=mysqli_fetch_array($select_query)){ 
-                ?>
-                <tr>
-                                    
-                <td><?php echo $row['id']?></td>
-                <td><?php echo $row['name']?></td>
-                <td><?php echo $row['email']?></td>
-                <td><?php echo $row['gender']?></td>
+                <div class="text-white">
+                    <h2 class="">
+                        Dashboard
+                    </h2>
 
-                <td><a href="" class='btn btn-success'>View</a>
-                <a href="" class='btn btn-danger'>delete</a></td>
+                    <div class="search-wrapper">
+                        <span class="las-la-search"></span>
+                        <input type="search" placeholder="Search here">
+                    </div>
 
-            </tr>
-            <?php
-            }
-            ?>
+                    <div class="user-wrapper">
+                        <img src="/ALPHA TECH/Images/imgicon.jpg" alt="" height="60px" width="60px">
+                        <h3>Raquel Carole</h3>
+                        <small>Administrator</small>
+                    </div>
+                </div>
 
-            </tbody>
-        </table>
+                               
+                
+                   
+                    
+            </div>
+            
         </div>
 
             
